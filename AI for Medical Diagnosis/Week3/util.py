@@ -346,3 +346,5 @@ def predict_and_viz(image, label, model, threshold, loc=(100, 100, 50)):
             ax[i][j].set_yticks([])
 
     return model_label_reformatted
+
+
